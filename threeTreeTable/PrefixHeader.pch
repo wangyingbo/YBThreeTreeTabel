@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  threeTreeTable
+//
+//  Created by EDZ on 2017/4/28.
+//  Copyright © 2017年 王颖博. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define textField_H 30*VIEWLAYOUT_H
+#define VIEWLAYOUT_W  FULL_SCREEN_WIDTH/375
+#define VIEWLAYOUT_H  FULL_SCREEN_HEIGHT/667
+
+#define FULL_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define FULL_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+// 颜色-三原色
+#define YBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//警告
+#define   SHOW_ALTER(str)  [[[UIAlertView alloc]initWithTitle:nil message:str delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil] show]
+
+
+#endif /* PrefixHeader_pch */
