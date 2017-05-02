@@ -59,7 +59,7 @@ CGFloat leftMargin_three_tree = 15;
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 50, 30)];
     label.textAlignment = NSTextAlignmentCenter;
     label.font = [UIFont systemFontOfSize:17.];
-    label.text = @"选择部门";
+    label.text = @"课程";
     label.textColor = [UIColor whiteColor];
     self.navigationItem.titleView = label;
     
